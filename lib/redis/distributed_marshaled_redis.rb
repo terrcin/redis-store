@@ -1,4 +1,4 @@
-class DistributedMarshaledRedis < DistRedis
+class DistributedMarshaledRedis < RedisRb::DistRedis
   def initialize(addresses)
     nodes = addresses.map do |address|
       MarshaledRedis.new address

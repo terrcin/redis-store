@@ -4,15 +4,15 @@
 
 Download and install Redis from [http://code.google.com/p/redis/](http://code.google.com/p/redis/)
 
-    curl -OL http://redis.googlecode.com/files/redis-1.02.tar.gz
-    tar -zxvf redis-1.02.tar.gz
-    mv redis-1.02 redis
+    curl -OL http://redis.googlecode.com/files/redis-1.2.5.tar.gz
+    tar -zxvf redis-1.2.5.tar.gz
+    mv redis-1.2.5 redis
     cd redis
     make
 
 Install the gems
 
-    sudo gem install redis-rb redis-store
+    sudo gem install redis redis-store
 
 ## Cache store
 
